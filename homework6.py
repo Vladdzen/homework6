@@ -4,7 +4,7 @@ my_dict['Alex'] = 2010
 my_dict['Liza'] = 2016
 my_dict['Kate'] = 2014
 del my_dict['Ivan']
-print(my_dict('Ivan'))
+print(my_dict.get('Ivan'))
 print(my_dict['Liza'])
 print(my_dict['Kate'])
 print(my_dict)
